@@ -30,6 +30,8 @@ public class Controller {
     @FXML private TextField epoki;
 
     //Training arrays
+    //TODO
+    //All training Arrays put into one array
     private Double[][] trainingZero1 = new Double[24][1];
     private Double[][] trainingZero2 = new Double[24][1];
     private Double[][] trainingZero3 = new Double[24][1];
@@ -163,6 +165,8 @@ public class Controller {
 
     public void setTrainingArrays(){
 
+        //TODO
+        //Load training arrays from text file
         binaryZero = new Double[][]{
                 {0.0},
                 {0.0},
